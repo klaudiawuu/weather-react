@@ -1,13 +1,18 @@
 import './App.css';
 import Search from "./Search";
+import CurrentWeather from "./CurrentWeather";
+import Footer from "./Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Search />
-      <br />
-      <a href="https://github.com/klaudiawuu/weather-react" className="source">View GitHub source</a>
+      <div className="whole-app">
+        <div className="my-weather-app">
+          <Search />
+          <CurrentWeather />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

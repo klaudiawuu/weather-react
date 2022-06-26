@@ -1,15 +1,101 @@
 .App {
-  font-family: sans-serif;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/2931915/pexels-photo-2931915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.whole-app {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.my-weather-app {
+  padding: 30px;
+  padding-right: 50px;
+  border: 1px solid rgb(122, 185, 228);
+  border-radius: 8px;
+  background-color: rgb(201, 234, 250);
+}
+
+h1 {
+  color: rgb(97, 93, 93);
+  font-size: 34px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.day {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.day:first-letter {
+  text-transform: capitalize;
+}
+
+.hour {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.weather-condition {
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.weather-condition:first-letter {
+  text-transform: capitalize;
+}
+
+img {
+  max-width: 60%;
+  margin-right: 0;
+}
+
+.temp-value {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bolder;
+}
+
+.units {
+  text-decoration-line: none;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+ul {
+  margin: 0;
+  margin-left: 50px;
+  padding: 0;
+}
+
+li {
+  display: block;
+  list-style: none;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.weather-forecast {
+  font-size: 14px;
   text-align: center;
 }
 
-.weather {
-  list-style: none;
-  font-size: 15px;
-  text-align: center;
+.forecast-temp-min {
+  opacity: 0.7;
 }
 
 .source {
-  font-size: 12px;
-  text-decoration: none;
+  font-size: 10px;
+  margin: 0 auto;
 }
